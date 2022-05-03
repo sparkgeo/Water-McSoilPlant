@@ -20,7 +20,7 @@
   <a href="https://github.com/sparkgeo/template-barebones">
     <img src="./images/soil-hold-water.jpeg">
   </a>
-  <h3 align="center">Water McSoil Watering App</h3>
+  <h3 align="center">Water McSoilPlant App</h3>
 </p>
 
 
@@ -45,7 +45,9 @@ Soil moisture water detection application using a raspberry pi
 Features
 - Intergrated Weather API
 - A Dashboard displaying information
-- Python Web Server 
+- Python Web Server
+- Soil Mositure Alert system
+- Designed for raspberry pi 
 ```
 
 <!-- GETTING STARTED -->

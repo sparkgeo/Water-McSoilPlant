@@ -18,9 +18,9 @@
 <br />
 <p align="center">
   <a href="https://github.com/sparkgeo/template-barebones">
-    <img src="./images/sparkgeo-logo.png">
+    <img src="./images/soil-hold-water.jpeg">
   </a>
-  <h3 align="center">PROJECT NAME HERE</h3>
+  <h3 align="center">Water McSoil Watering App</h3>
 </p>
 
 
@@ -32,34 +32,28 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing and Contributors](#contributing)
-  * [Bug Reporting](#bugreporting)
 * [License](#license)
-* [Contact](#contact)
+
 
 
 <!-- ABOUT THE PROJECT -->
 ### About This Project
 
-[DESCRIBE THE PROJECT HERE]
+Soil moisture water detection application using a raspberry pi
 
 ```markdown
 Features
-[PUT THE FEATURE LIST HERE]
-```
-
-```markdown
-ADDITIONAL INFORMATION HERE ABOUT SUPPORTED FILES, CAPABILITIES OF THE PROJECT, ETC
+- Intergrated Weather API
+- A Dashboard displaying information
+- Python Web Server 
 ```
 
 <!-- GETTING STARTED -->
 # Getting Started
 
-[LIST OF SET-UP STEPS HERE, BE AS DETAILED AS POSSIBLE YET STILL CONCISE]
+
 
 ### Prerequisites
-
-[PRE REQUISITES AND REQUIRED PROGRAMS THAT MAY BE USEFUL SHOULD BE PUT HERE AS WELL]
 
 
 # Installation
@@ -69,11 +63,6 @@ ADDITIONAL INFORMATION HERE ABOUT SUPPORTED FILES, CAPABILITIES OF THE PROJECT, 
 1. [STEP 1]
 2. [STEP 2]
 
-### SUB-INSTALL-FIELD
-
-```markdown
-PUT CODE HERE IF ITS NEEDED TO INSTALL ADDITIONAL INFORMATION
-```
 
 <!-- USAGE EXAMPLES -->
 # Usage Examples
@@ -87,47 +76,17 @@ PUT CODE HERE IF ITS NEEDED TO INSTALL ADDITIONAL INFORMATION
 <!-- CONTRIBUTING -->
 # Contributing and Contributors
 
-For further contribution requests
+The greatest team, Spacey-McSpaceFace
+# Miscellaneous Links/Future Ideas
+- Solar powered pi
+- Modelling/Predicting when to water
+- 
 
-1. Fork the Project
-2. Create your Feature Branch 
-3. Commit your Changes 
-4. Push to the Branch 
-5. Open a Pull Request
-
-[INCLUDE THE REPO LEAD AND OTHER DEVELOPERS WHO WILL BE ABLE TO ANSWER QUESTIONS ABOUT THE PROJECT]
-
-```SQL
-CONTRIBUTOR NAME: GITHUB USER/SLACK USERNAME]
-```
-
-# Miscellaneous Links/Helpful Links
-
-[PUT LINKS TO HELPFUL DOCUMENTATION, INFORMATION, NOTION PAGES, ETC. IF POSSIBLE, INCLUDE LINKS TO NETLIFY (IF SUPPORTED) OR UX MOCKUPS FOR EASY USE]
-
-<!-- BUG REPORTING -->
-# Bug Reporting
-
-[PLEASE REPORT ALL BUGS ON GITHUB! OPEN A PULL REQUEST AND DESCRIBE THE ISSUE AND WE WILL LOOK AT IT]
-[PLEASE BE AS SPECIFIC AS POSSIBLE, WE WANT TO BE ABLE TO REPLICATE THE ISSUE AND SEE HOW WE CAN FIX IT]
 
 <!-- LICENSE -->
 # License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Spacey-Force License. See `LICENSE` for more information.
 
-
-<!-- CONTACT -->
-# Contact
-
-Project Link: [https://github.com/sparkgeo/](https://github.com/sparkgeo/)
-
-
-<!-- ACKNOWLEDGMENTS -->
-# Acknowledgments
-
-Readme template edited by Alex Leamy
-
-Based off original template from Othniel Drew [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 

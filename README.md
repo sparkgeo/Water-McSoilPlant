@@ -69,7 +69,7 @@ Features
 <!-- USAGE EXAMPLES -->
 # Usage Examples
 
-1.
+1. Angelo's Video he shared in slack aka bathroom is flooding light? 
 2. 
 3. 
 4. 
@@ -79,7 +79,27 @@ Features
 # Contributing and Contributors
 
 The greatest team, Spacey-McSpaceFace
-# Miscellaneous Links/Future Ideas
+# Miscellaneous Links
+For running tests:
+
+https://github.com/wallysalami/tkgpio
+
+
+Links:
+
+https://www.piddlerintheroot.com/capacitive-soil-moisture-sensor-v2-0/
+
+http://jenfoxbot.blogspot.com/2014/09/raspberry-pi-soil-moisture-sensor.html
+
+https://www.instructables.com/Solar-Soil-Moisture-Meter-With-ESP8266/
+
+https://tutorials-raspberrypi.com/measuring-soil-moisture-with-raspberry-pi/
+
+PDF:
+
+http://repository.petra.ac.id/17872/1/Publikasi1_98011_4142.pdf
+
+# Future Ideas
 - Solar powered pi
 - Modelling/Predicting when to water
 - 

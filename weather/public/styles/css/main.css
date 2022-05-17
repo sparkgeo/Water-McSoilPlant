@@ -414,4 +414,10 @@ body main .cloud-wrapper p.time {
   text-align: center;
 }
 
+.wrapper{
+  display: flex;
+  position: relative;
+
+}
+
 /*# sourceMappingURL=main.css.map */

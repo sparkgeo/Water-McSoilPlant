@@ -1,4 +1,4 @@
-##For development:
+## For development:
 
 Install live-server from npm
 
@@ -8,7 +8,7 @@ Install [sass](https://sass-lang.com/install) from wherever you want
 
 Type `make run` to start the server
 
-##For production:
+## For production:
 Deploy the files in teh `public` folder.
 
 

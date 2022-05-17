@@ -66,11 +66,27 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script src="./js/barometer.js"></script>
     <script type="text/javascript">
-        $( document ).ready(function() {
+        $(document).ready(function(){
+          let avg_soilmoisture;
+          $.get({
+              url: 'https://soil-reading.herokuapp.com/soil_readings/?sensor_id=AAA&limit=10',
+            },
+          function (data){
+            console.log(data)
+            let sum = 0;
+            let count= 0;
+            $.each(data, function (key, value) {
+              int_moisture = parseInt(value.value);
+              sum = int_moisture + sum
+              count++;
+              avg_soilmoisture = sum / count;            
+      });
+          }).done(function (){ 
             $('#barometer').barometer({
               placeholder: "% Soil Moisture: ",
-              startvalue: "50.0"
+              startvalue: avg_soilmoisture
             });
+          });
         });
     </script>
   </body>

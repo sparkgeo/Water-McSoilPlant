@@ -67,6 +67,7 @@
     $.fn.barometer = function ( options, arg ) {
          return new Barometer( this, options );
     };
+    
 
     $.fn.barometer.Constructor = Barometer;
 

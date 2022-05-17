@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/css/gauge.css">
     <title>Water weather</title>
   </head>
   <body>
@@ -30,7 +31,7 @@
       "feels_like": 280.4,
       "pressure": 1019,
 
-      
+
       "uvi": 1.4,
       "clouds": 19,
       "visibility": 306,
@@ -49,6 +50,10 @@
     <main>
       <div class="legend"></div>
       <div class="cloud-wrapper"></div>
+        <div class="wrapper">
+          <h1>Soil Mositure</h1>
+        <div id="barometer"></div>
+      </div>
     </main>
     <script
       type="text/javascript"
@@ -59,5 +64,14 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.0/mustache.min.js"
     ></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="./js/barometer.js"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $('#barometer').barometer({
+              placeholder: "% Soil Moisture: ",
+              startvalue: "0.0"
+            });
+        });
+    </script>
   </body>
 </html>
